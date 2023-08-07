@@ -15,7 +15,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/google-pay/ng-package.json"
+            "project": "projects/google-pay/ng-package.json",
+            "aot": true
           },
           "configurations": {
             "production": {
@@ -46,7 +47,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ui-payments/ng-package.json"
+            "project": "projects/ui-payments/ng-package.json",
+            "aot": true
           },
           "configurations": {
             "production": {
